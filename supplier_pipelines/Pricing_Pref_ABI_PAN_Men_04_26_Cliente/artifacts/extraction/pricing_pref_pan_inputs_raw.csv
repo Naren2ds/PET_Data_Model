@@ -1,0 +1,6 @@
+﻿source_range,source_row,G,G_formula,H,H_formula
+G7:H11,7,2026-2,2026-2,852.5,852.5
+G7:H11,8,Promedio FOB,Promedio FOB,852.5,=AVERAGE(H7:H7)
+G7:H11,9,Flete marítimo,Flete marítimo,161,"=IF(L7>180,L7+25,161)"
+G7:H11,10,Nacionalización (%),Nacionalización (%),35,35
+G7:H11,11,Precio DDP,Precio DDP,1048.5,=+H8+H9+H10

@@ -1,0 +1,6 @@
+﻿source_range,source_row,G,G_formula,H,H_formula,I,I_formula
+G8:I12,8,,,El Salvador,El Salvador,Perú,Perú
+G8:I12,9,Precio FOB,Precio FOB,852.5,=AVERAGE(H7:H7),852.5,=+H7
+G8:I12,10,Flete marítimo,Flete marítimo,195,"=IF(M7>180,M7+25,195)",161,"=IF(M11>180,M11+25,161)"
+G8:I12,11,Nacionalización (%),Nacionalización (%),64,64,35,35
+G8:I12,12,Precio DDP,Precio DDP,1111.5,=+SUM(Inputs!H9:H11),1048.5,=+SUM(Inputs!I9:I11)

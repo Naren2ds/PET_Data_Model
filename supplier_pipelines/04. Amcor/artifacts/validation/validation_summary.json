@@ -1,0 +1,48 @@
+{
+  "supplier": "Amcor",
+  "destination_country": "Brazil",
+  "resin_index_type": "ICIS PET China MID (M-1) USD/ton",
+  "tlc_formula": "Resin: [(Index + Int. Freight) x (1+Tax) + Others + Scrap]",
+  "formula_overview_sheet": "Pricing formula_Updated",
+  "run_timestamp": "2026-05-15T12:13:03",
+  "source_file": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\data\\04. Amcor.xlsx",
+  "extracted_file": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\supplier_pipelines\\04. Amcor\\artifacts\\extraction\\04. Amcor_resina_final.xlsx",
+  "actual_rows": 137,
+  "standardized_rows": 137,
+  "actual_front_end_rows": 137,
+  "tlc_validation_rows": 21,
+  "forecast_input_rows": 16,
+  "forecast_estimate_rows": 16,
+  "forecast_front_end_rows": 96,
+  "actual_forecast_front_end_rows": 233,
+  "validation_statuses": [
+    "formula_match_input_check",
+    "match"
+  ],
+  "max_abs_component_difference": 4.547473508864641e-13,
+  "locations": [
+    "MANAUS",
+    "SUAPE"
+  ],
+  "first_actual_period": "July 2025",
+  "last_actual_period": "May 2026",
+  "mapping_columns": [
+    "Tax",
+    "Resin Index vPET",
+    "Freight",
+    "Others",
+    "Drewery Index",
+    "Total Landing Cost",
+    "Seguro"
+  ],
+  "raw_cost_breakdowns": [
+    "P-TAX",
+    "ICIS China mid (M-1)",
+    "International freight",
+    "Duties",
+    "Others",
+    "Drewry",
+    "Sell Side Resina USD",
+    "Seguro"
+  ]
+}

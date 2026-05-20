@@ -1,0 +1,6 @@
+﻿source_range,source_row,G,G_formula,H,H_formula
+G9:H13,9,Precio FOB,Precio FOB,852.5,=AVERAGE(H7:H7)
+G9:H13,10,Flete marítimo,Flete marítimo,161,"=IF(L7>180,L7+25,161)"
+G9:H13,11,Precio CIF,Precio CIF,1013.5,=SUM(H9:H10)
+G9:H13,12,Nacionalización,Nacionalización,35,35
+G9:H13,13,Valor vPET,Valor vPET,1048.5,=+H12+H11

@@ -1,0 +1,6 @@
+﻿source_file,source_sheet,source_range,source_cell,metric_row,time_period,time_period_year,time_period_month,metric_label_source_cell,metric_label_original,metric_label_english,value,formula
+C:\Users\40100123\OneDrive - Anheuser-Busch InBev\GAC\PET\Data Model\PET_Data_Model\data\Pricing_Pref_ABI_PAN_Men_04_26_Cliente.xlsx,Inputs,G7:H11,H7,7,April 2026,2026,4,G7,2026-2,2026-2,852.5,852.5
+C:\Users\40100123\OneDrive - Anheuser-Busch InBev\GAC\PET\Data Model\PET_Data_Model\data\Pricing_Pref_ABI_PAN_Men_04_26_Cliente.xlsx,Inputs,G7:H11,H8,8,April 2026,2026,4,G8,Promedio FOB,Average FOB,852.5,=AVERAGE(H7:H7)
+C:\Users\40100123\OneDrive - Anheuser-Busch InBev\GAC\PET\Data Model\PET_Data_Model\data\Pricing_Pref_ABI_PAN_Men_04_26_Cliente.xlsx,Inputs,G7:H11,H9,9,April 2026,2026,4,G9,Flete marítimo,Ocean Freight,161,"=IF(L7>180,L7+25,161)"
+C:\Users\40100123\OneDrive - Anheuser-Busch InBev\GAC\PET\Data Model\PET_Data_Model\data\Pricing_Pref_ABI_PAN_Men_04_26_Cliente.xlsx,Inputs,G7:H11,H10,10,April 2026,2026,4,G10,Nacionalización (%),Import Clearance (%),35,35
+C:\Users\40100123\OneDrive - Anheuser-Busch InBev\GAC\PET\Data Model\PET_Data_Model\data\Pricing_Pref_ABI_PAN_Men_04_26_Cliente.xlsx,Inputs,G7:H11,H11,11,April 2026,2026,4,G11,Precio DDP,DDP Price,1048.5,=+H8+H9+H10

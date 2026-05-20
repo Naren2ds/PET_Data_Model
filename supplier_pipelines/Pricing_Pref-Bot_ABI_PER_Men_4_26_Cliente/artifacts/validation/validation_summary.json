@@ -1,0 +1,48 @@
+{
+  "run_timestamp": "2026-05-17T14:16:16",
+  "pipeline": "Pricing_Pref-Bot_ABI_PER_Men_4_26_Cliente",
+  "source_file": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\data\\Pricing_Pref-Bot_ABI_PER_Men_4_26_Cliente.xlsx",
+  "extracted_file": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\supplier_pipelines\\Pricing_Pref-Bot_ABI_PER_Men_4_26_Cliente\\artifacts\\extraction\\Pricing_Pref-Bot_ABI_PER_Men_4_26_Cliente_inputs_final.xlsx",
+  "index_reference_csv": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\Index Fprecast\\icis_resin_index_reference_table.csv",
+  "supplier": "San Miguel Industrias (SMI)",
+  "destination_country": "Peru",
+  "source_workbook_period": "April 2026",
+  "source_resin_index_type": "ICIS Asia SE Low (M-2)",
+  "formula_overview_resin_index_type": "ICIS Asia SE Low index",
+  "forecast_resin_index_type": "ICIS Asia SE Low",
+  "index_lag_months": 2,
+  "source_workbook_formula": "vPET Value = CIF Price + Import Clearance; CIF Price = FOB Price + Ocean Freight",
+  "tlc_formula_display": "PET Resin USD/Ton = (ICIS+OF)*(1+IT)+CC",
+  "raw_rows": 5,
+  "validation_rows": 1,
+  "forecast_months": 8,
+  "forecast_front_end_rows": 40,
+  "actual_forecast_front_end_rows": 45,
+  "formula_validation_statuses": [
+    "match"
+  ],
+  "freight_validation_statuses": [
+    "match"
+  ],
+  "cif_validation_statuses": [
+    "match"
+  ],
+  "index_reference_statuses": [
+    "match"
+  ],
+  "max_abs_formula_difference": 0.0,
+  "max_abs_freight_difference": 0.0,
+  "max_abs_cif_difference": 0.0,
+  "max_abs_index_reference_difference": 0.0,
+  "forecast_periods": [
+    "May 2026",
+    "June 2026",
+    "July 2026",
+    "August 2026",
+    "September 2026",
+    "October 2026",
+    "November 2026",
+    "December 2026"
+  ],
+  "front_end_actual_forecast_csv": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\supplier_pipelines\\Pricing_Pref-Bot_ABI_PER_Men_4_26_Cliente\\artifacts\\front_end\\Pricing_Pref-Bot_ABI_PER_Men_4_26_Cliente_actual_forecast_front_end_standardized.csv"
+}

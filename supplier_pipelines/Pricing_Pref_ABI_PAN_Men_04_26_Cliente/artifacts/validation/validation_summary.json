@@ -1,0 +1,39 @@
+{
+  "run_timestamp": "2026-05-17T14:00:30",
+  "pipeline": "Pricing_Pref_ABI_PAN_Men_04_26_Cliente",
+  "source_file": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\data\\Pricing_Pref_ABI_PAN_Men_04_26_Cliente.xlsx",
+  "extracted_file": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\supplier_pipelines\\Pricing_Pref_ABI_PAN_Men_04_26_Cliente\\artifacts\\extraction\\Pricing_Pref_ABI_PAN_Men_04_26_Cliente_inputs_final.xlsx",
+  "index_reference_csv": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\Index Fprecast\\icis_resin_index_reference_table.csv",
+  "supplier": "Pastiglas S.A",
+  "destination_country": "Panama",
+  "source_resin_index_type": "ICIS Asia SE Low (M-2)",
+  "formula_overview_resin_index_type": "ICIS Asia SE Low index (M-2)",
+  "forecast_resin_index_type": "ICIS Asia SE Low",
+  "index_lag_months": 2,
+  "source_workbook_formula": "DDP Price = Average FOB + Ocean Freight + Import Clearance",
+  "forecast_formula": "DDP Price = (Average FOB + Ocean Freight) * (1 + Import Tax) + Import Clearance",
+  "raw_rows": 5,
+  "validation_rows": 1,
+  "forecast_months": 8,
+  "forecast_front_end_rows": 40,
+  "actual_forecast_front_end_rows": 45,
+  "formula_validation_statuses": [
+    "match"
+  ],
+  "index_reference_statuses": [
+    "match"
+  ],
+  "max_abs_formula_difference": 0.0,
+  "max_abs_index_reference_difference": 0.0,
+  "forecast_periods": [
+    "May 2026",
+    "June 2026",
+    "July 2026",
+    "August 2026",
+    "September 2026",
+    "October 2026",
+    "November 2026",
+    "December 2026"
+  ],
+  "front_end_actual_forecast_csv": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\supplier_pipelines\\Pricing_Pref_ABI_PAN_Men_04_26_Cliente\\artifacts\\front_end\\Pricing_Pref_ABI_PAN_Men_04_26_Cliente_actual_forecast_front_end_standardized.csv"
+}

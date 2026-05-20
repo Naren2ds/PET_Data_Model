@@ -1,0 +1,46 @@
+{
+  "run_timestamp": "2026-05-15T17:04:04",
+  "pipeline": "04. Valgroup",
+  "source_file": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\data\\04. Valgroup.xlsx",
+  "index_reference_csv": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\Index Fprecast\\icis_resin_index_reference_table.csv",
+  "legacy_extracted_file": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\supplier_pipelines\\04. Valgroup\\artifacts\\extraction\\04. Valgroup_months_final.xlsx",
+  "extracted_file": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\supplier_pipelines\\04. Valgroup\\artifacts\\extraction\\04. Valgroup_months_full_final.xlsx",
+  "supplier": "Valgroup",
+  "destination_country": "Brazil",
+  "source_resin_index_type": "ICIS Asia SE Low (n-1) with Mid guardrail",
+  "forecast_resin_index_types": "ICIS Asia SE Low; ICIS China Mid",
+  "tlc_formula": "Total V-PET USD/ton = (((Resin with assumptions * (1 - Discount)) + Freight) * (1 + Importation + Import Tax)) + Surcharge + Indorama Discount",
+  "resin_formula": "Resin with assumptions = IF(Low > Mid, Mid, IF(Mid - Low > 75, Mid - 75, Low))",
+  "note": "Full pipeline extracts VRJ1, VPE1, and VMG11 product columns; legacy extraction remains available for the old U2:V12 scope.",
+  "raw_rows": 48,
+  "final_rows": 120,
+  "validation_rows": 12,
+  "forecast_input_rows": 24,
+  "forecast_estimate_rows": 24,
+  "forecast_front_end_rows": 264,
+  "actual_forecast_front_end_rows": 384,
+  "formula_validation_statuses": [
+    "match"
+  ],
+  "low_reference_statuses": [
+    "match"
+  ],
+  "mid_reference_statuses": [
+    "check"
+  ],
+  "max_abs_formula_difference": 0.0,
+  "max_abs_low_reference_difference": 0.0,
+  "max_abs_mid_reference_difference": 136.08000000000004,
+  "forecast_months": [
+    "May 2026",
+    "June 2026",
+    "July 2026",
+    "August 2026",
+    "September 2026",
+    "October 2026",
+    "November 2026",
+    "December 2026"
+  ],
+  "mid_fallback_rows": 21,
+  "front_end_actual_forecast_csv": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\supplier_pipelines\\04. Valgroup\\artifacts\\front_end\\04. Valgroup_actual_forecast_front_end_standardized.csv"
+}

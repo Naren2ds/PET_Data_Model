@@ -1,0 +1,18 @@
+{
+  "run_timestamp": "2026-05-15T11:08:48",
+  "pipeline": "3 Precios AB Inbev_Abril 26 ECUADOR",
+  "extracted_file": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\supplier_pipelines\\3 Precios AB Inbev_Abril 26 ECUADOR\\artifacts\\extraction\\3 Precios AB Inbev_Abril 26 ECUADOR_formula_virgen_final.xlsx",
+  "resin_forecast_csv": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\Estimation\\resin_index_forecast_table.csv",
+  "source_resin_index_type": "ICIS PET China MID (N-2) USD/ton",
+  "forecast_resin_index_type": "PET Bottle Grade FOB China Spot",
+  "tlc_formula": "Landed Price = CIF + 0.10% of CIF Value + Foreign Currency Exit Tax 4% of CIF Value + 0.5% of CIF Value + customs clearance/freight fixed components + Government Diesel Surcharge",
+  "validation_rows": 32,
+  "forecast_months": 9,
+  "forecast_component_rows": 135,
+  "merged_front_end_rows": 540,
+  "validation_statuses": [
+    "match"
+  ],
+  "max_abs_difference": 6.821210263296962e-13,
+  "front_end_actual_forecast_csv": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\supplier_pipelines\\3 Precios AB Inbev_Abril 26 ECUADOR\\artifacts\\front_end\\3 Precios AB Inbev_Abril 26 ECUADOR_actual_forecast_front_end_standardized.csv"
+}

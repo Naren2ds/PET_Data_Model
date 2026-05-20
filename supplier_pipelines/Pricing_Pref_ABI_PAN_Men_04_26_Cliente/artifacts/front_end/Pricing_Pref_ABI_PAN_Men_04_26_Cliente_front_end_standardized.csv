@@ -1,0 +1,6 @@
+﻿Data Type,Source File ,Supplier Name,Destination Country,Time_Period ,Time Period Year,Time Period Month,Raw Cost Breakdown,Resin Index Type,Forecast Resin Index Type,Mapping Columns,Column Required for Calculation,Value ,TLC Formula
+Actual,Pricing_Pref_ABI_PAN_Men_04_26_Cliente.xlsx,Pastiglas S.A,Panama,April 2026,2026,4,ICIS Asia SE Low (M-2),ICIS Asia SE Low (M-2),,Resin Index vPET,No,852.5,vPET Resin USD/Ton = (ICIS + OF) * (1 + IT) + CC
+Actual,Pricing_Pref_ABI_PAN_Men_04_26_Cliente.xlsx,Pastiglas S.A,Panama,April 2026,2026,4,Average FOB,ICIS Asia SE Low (M-2),,Resin Index vPET,Yes,852.5,vPET Resin USD/Ton = (ICIS + OF) * (1 + IT) + CC
+Actual,Pricing_Pref_ABI_PAN_Men_04_26_Cliente.xlsx,Pastiglas S.A,Panama,April 2026,2026,4,Ocean Freight,ICIS Asia SE Low (M-2),,Freight,Yes,161,vPET Resin USD/Ton = (ICIS + OF) * (1 + IT) + CC
+Actual,Pricing_Pref_ABI_PAN_Men_04_26_Cliente.xlsx,Pastiglas S.A,Panama,April 2026,2026,4,Import Clearance (%),ICIS Asia SE Low (M-2),,Tax,Yes,35,vPET Resin USD/Ton = (ICIS + OF) * (1 + IT) + CC
+Actual,Pricing_Pref_ABI_PAN_Men_04_26_Cliente.xlsx,Pastiglas S.A,Panama,April 2026,2026,4,DDP Price,ICIS Asia SE Low (M-2),,Total Landing Cost,Yes,1048.5,vPET Resin USD/Ton = (ICIS + OF) * (1 + IT) + CC

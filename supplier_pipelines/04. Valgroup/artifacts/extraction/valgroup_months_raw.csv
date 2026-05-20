@@ -1,0 +1,45 @@
+﻿source_sheet,source_range,source_row,U,V
+JAN.26,U2:V12,2,VRJ1,VPE1
+JAN.26,U2:V12,3,805,805
+JAN.26,U2:V12,4,892.38,892.38
+JAN.26,U2:V12,5,817.38,817.38
+JAN.26,U2:V12,6,0.025,0.04
+JAN.26,U2:V12,7,100.83,100.83
+JAN.26,U2:V12,8,0.06,0.06
+JAN.26,U2:V12,9,0.2,0.2
+JAN.26,U2:V12,10,85,85
+JAN.26,U2:V12,11,-25,-25
+JAN.26,U2:V12,12,1191.19713,1175.748648
+FEV.26,U2:V12,2,RESINA VIRGEM,VRJ1
+FEV.26,U2:V12,3,Icis Asia SE Low (n-1),830
+FEV.26,U2:V12,4,Icis Asia 5R MID (n-1),925
+FEV.26,U2:V12,5,Resina c/ premissas,850
+FEV.26,U2:V12,6,Desconto,0.025
+FEV.26,U2:V12,7,Drewry (t-1) com desconto,82.08
+FEV.26,U2:V12,8,Internação,0.06
+FEV.26,U2:V12,9,Imposto Internação,0.2
+FEV.26,U2:V12,10,Sobretaxa,85
+FEV.26,U2:V12,11,Desconto Indorama,-25
+FEV.26,U2:V12,12,Total V-PET USD/ton ,1207.6458
+MAR.26,U2:V12,2,RESINA VIRGEM,VRJ1
+MAR.26,U2:V12,3,Icis Asia SE Low (n-1),852.5
+MAR.26,U2:V12,4,Icis Asia 5R MID (n-1),939
+MAR.26,U2:V12,5,Resina c/ premissas,864
+MAR.26,U2:V12,6,Desconto,0.025
+MAR.26,U2:V12,7,Drewry (t-1) com desconto,73.94
+MAR.26,U2:V12,8,Internação,0.06
+MAR.26,U2:V12,9,Imposto Internação,0.2
+MAR.26,U2:V12,10,Sobretaxa,85
+MAR.26,U2:V12,11,Desconto Indorama,-25
+MAR.26,U2:V12,12,Total V-PET USD/ton ,1214.5883999999999
+ABR.26,U2:V12,2,RESINA VIRGEM,VRJ1
+ABR.26,U2:V12,3,Icis Asia SE Low (n-1),1115
+ABR.26,U2:V12,4,Icis Asia 5R MID (n-1),1235.75
+ABR.26,U2:V12,5,Resina c/ premissas,1160.75
+ABR.26,U2:V12,6,Desconto,0.025
+ABR.26,U2:V12,7,Drewry (t-1) com desconto,91.33
+ABR.26,U2:V12,8,Internação,0.06
+ABR.26,U2:V12,9,Imposto Internação,0.2
+ABR.26,U2:V12,10,Sobretaxa,85
+ABR.26,U2:V12,11,Desconto Indorama,-25
+ABR.26,U2:V12,12,Total V-PET USD/ton ,1601.057175

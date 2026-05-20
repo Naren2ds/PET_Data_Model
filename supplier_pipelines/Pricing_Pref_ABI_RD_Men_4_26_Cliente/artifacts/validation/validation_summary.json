@@ -1,0 +1,45 @@
+{
+  "run_timestamp": "2026-05-17T13:06:23",
+  "pipeline": "Pricing_Pref_ABI_RD_Men_4_26_Cliente",
+  "source_file": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\data\\Pricing_Pref_ABI_RD_Men_4_26_Cliente.xlsx",
+  "extracted_file": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\supplier_pipelines\\Pricing_Pref_ABI_RD_Men_4_26_Cliente\\artifacts\\extraction\\Pricing_Pref_ABI_RD_Men_4_26_Cliente_inputs_final.xlsx",
+  "index_reference_csv": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\Index Fprecast\\icis_resin_index_reference_table.csv",
+  "supplier": "SMI PET",
+  "source_workbook_period": "April 2026",
+  "source_resin_index_type": "ICIS Asia SE Low (M-2)",
+  "formula_overview_resin_index_type": null,
+  "formula_overview_destination_country": null,
+  "forecast_resin_index_type": "ICIS Asia SE Low",
+  "index_lag_months": 2,
+  "source_workbook_formula": "DDP Price = FOB Price + Ocean Freight + Import Clearance",
+  "tlc_formula_display": "PET Resin USD/Ton = (ICIS+OF)*(1+IT)+CC",
+  "raw_rows": 8,
+  "validation_rows": 2,
+  "forecast_months": 8,
+  "forecast_estimate_rows": 16,
+  "forecast_front_end_rows": 64,
+  "actual_forecast_front_end_rows": 72,
+  "formula_validation_statuses": [
+    "match"
+  ],
+  "freight_validation_statuses": [
+    "match"
+  ],
+  "index_reference_statuses": [
+    "match"
+  ],
+  "max_abs_formula_difference": 0.0,
+  "max_abs_freight_difference": 0.0,
+  "max_abs_index_reference_difference": 0.0,
+  "forecast_periods": [
+    "May 2026",
+    "June 2026",
+    "July 2026",
+    "August 2026",
+    "September 2026",
+    "October 2026",
+    "November 2026",
+    "December 2026"
+  ],
+  "front_end_actual_forecast_csv": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\supplier_pipelines\\Pricing_Pref_ABI_RD_Men_4_26_Cliente\\artifacts\\front_end\\Pricing_Pref_ABI_RD_Men_4_26_Cliente_actual_forecast_front_end_standardized.csv"
+}

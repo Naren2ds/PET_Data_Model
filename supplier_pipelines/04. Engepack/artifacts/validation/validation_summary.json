@@ -1,0 +1,43 @@
+{
+  "run_timestamp": "2026-05-15T15:19:09",
+  "pipeline": "04. Engepack",
+  "source_file": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\data\\04. Engepack.xlsx",
+  "extracted_file": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\supplier_pipelines\\04. Engepack\\artifacts\\extraction\\04. Engepack_indices_final.xlsx",
+  "supplier": "Engepack",
+  "destination_country": "Brazil",
+  "source_resin_index_type": "IHS (M-1)",
+  "forecast_resin_index_type": "PET Bottle Grade FOB China Spot",
+  "tlc_formula": "Total Landing Cost $ = ((IHS (M-1) + 100 + Adjusted Freight) * (1 + 20%)) + 125 + 8% * Adjusted Freight",
+  "freight_adjustment_formula": "Adjusted Freight = IF(AVG Q-1 > 108, MAX(108, (AVG Q-1 - 108) * 0.85 + 90), IF(AVG Q-1 < 60, 60, AVG Q-1))",
+  "note": "Extracted Freight is AVG Q-1; TLC validation and forecast use adjusted freight from source row 26.",
+  "final_rows": 243,
+  "actual_standardized_rows": 243,
+  "tlc_validation_rows": 40,
+  "forecast_input_rows": 8,
+  "forecast_estimate_rows": 8,
+  "forecast_front_end_rows": 64,
+  "actual_forecast_front_end_rows": 307,
+  "validation_statuses": [
+    "match"
+  ],
+  "max_abs_difference": 2.2737367544323206e-13,
+  "max_abs_source_vs_final_data_difference": 4.547473508864641e-13,
+  "first_actual_period": "October 2022",
+  "last_actual_period": "April 2026",
+  "mapping_columns": [
+    "Resin Index vPET",
+    "Others",
+    "Fx",
+    "Freight",
+    "Total Landing Cost"
+  ],
+  "raw_cost_breakdowns": [
+    "IHS (M-1)",
+    "Maxiquim MME (M-1)",
+    "Fx (M-1)",
+    "Freight",
+    "Total Landing Cost",
+    "Total Landing Cost $"
+  ],
+  "front_end_actual_forecast_csv": "C:\\Users\\40100123\\OneDrive - Anheuser-Busch InBev\\GAC\\PET\\Data Model\\PET_Data_Model\\supplier_pipelines\\04. Engepack\\artifacts\\front_end\\04. Engepack_actual_forecast_front_end_standardized.csv"
+}
